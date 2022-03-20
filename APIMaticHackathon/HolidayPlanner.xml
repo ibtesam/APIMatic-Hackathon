@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIMatic.Hackathon</name>
+    </assembly>
+    <members>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.CountryCode">
+            <summary>
+            Two letter country code. Required parameter.
+            </summary>
+            <example>US,PK</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.Month">
+            <summary>
+            Month to plan holiday in. Optional parameter.
+            </summary>
+            <example>1-12</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.Year">
+            <summary>
+            Year to plan holiday in. Optional parameter.
+            </summary>
+            <example>2022</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.City">
+            <summary>
+            City to plan holiday in. Required parameter.
+            </summary>
+            <example>Karachi</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.VisitingRadiusInMeter">
+            <summary>
+            Radius limit for destination. Required parameter.
+            </summary>
+            <example>1000</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.DestinationKinds">
+            <summary>
+            Kind of destinations preferred, comma separated. Optional.
+            </summary>
+            <example>natural,interesting_places,monuments,cultural,beaches</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HolidayPlanRequest.PreferredDestination">
+            <summary>
+            Search for destination. Optional parameter.
+            </summary>
+            <example>Clifton</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HotelSearchRequest.Keyword">
+            <summary>
+            Hotel to search for. Required parameter.
+            </summary>
+            <example>Pearl</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HotelSearchRequest.CountryCode">
+            <summary>
+            Two letter country code. Required parameter.
+            </summary>
+            <example>US,PK</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.HotelSearchRequest.Max">
+            <summary>
+            Result limit. Required parameter.
+            </summary>
+            <example>20</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.LocationDetailsRequest.Name">
+            <summary>
+            Location to search for. Required parameter.
+            </summary>
+            <example>Karachi</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.LocationDetailsRequest.Country">
+            <summary>
+            Two-letter country code to search for location. Optional parameter.
+            </summary>
+            <example>PK, US</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.PublicHolidaysRequest.Country">
+            <summary>
+            Two-letter country code, ISO-3166. A required field.
+            </summary>
+            <example>PK,US</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.PublicHolidaysRequest.Day">
+            <summary>
+            The particular day for holiday. Optional.
+            </summary>
+            <example>1-31</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.PublicHolidaysRequest.Month">
+            <summary>
+            The particular month for holiday. Optional.
+            </summary>
+            <example>1-12</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.PublicHolidaysRequest.Year">
+            <summary>
+            The particular year for holidays. Required parameter.
+            </summary>
+            <example>2022</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.PublicHolidaysRequest.Location">
+            <summary>
+            State of the mentioned country to get state-level holidays (iso-3166 format). Optional.
+            </summary>
+            <example>us-ny</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.Radius">
+            <summary>
+            Radius to search within for location. Required parameter.
+            </summary>
+            <example>10000</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.Lat">
+            <summary>
+            Latitude to search from. Optional if not known.
+            </summary>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.Lon">
+            <summary>
+            Longitude to search from. Optional if not known.
+            </summary>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.CityDetails">
+            <summary>
+            City details. Required parameter if lat long are not provided.
+            </summary>
+            <example>Karachi</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.Kinds">
+            <summary>
+            Kind of destinations preferred, comma separated. Optional.
+            </summary>
+            <example>natural,interesting_places,monuments,cultural,beaches</example>
+        </member>
+        <member name="P:APIMatic.Hackathon.DTOs.TouristDestinationRequest.PreferredDestination">
+            <summary>
+            Search for destination. Optional parameter.
+            </summary>
+            <example>Clifton</example>
+        </member>
+    </members>
+</doc>
